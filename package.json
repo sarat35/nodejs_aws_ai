@@ -1,0 +1,29 @@
+{
+  "name": "aws-bedrock-log-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A minimal TypeScript API for analyzing application logs with Amazon Bedrock.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.826.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

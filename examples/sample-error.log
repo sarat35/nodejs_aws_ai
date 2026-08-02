@@ -1,0 +1,4 @@
+2026-08-02T08:23:14.015Z ERROR orders-api Request failed while saving order 4ac7
+2026-08-02T08:23:14.018Z ERROR orders-api SequelizeConnectionAcquireTimeoutError: Operation timeout
+2026-08-02T08:23:14.021Z WARN  orders-api Database connection pool: active=20 idle=0 waiting=14
+2026-08-02T08:23:14.023Z INFO  orders-api Retry attempt 1 scheduled in 500ms
